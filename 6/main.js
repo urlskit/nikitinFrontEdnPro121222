@@ -7,7 +7,7 @@ const sumSub = (firstNumber - secondNumber);
 const sumMult = (firstNumber * secondNumber);
 const sumDiv = (firstNumber / secondNumber);
 
-if(action === '+'){
+if(action == '+'){
 	console.log (`${firstNumber} + ${secondNumber} = ${sumAdd}`);
 }
 else if(action == '-'){
